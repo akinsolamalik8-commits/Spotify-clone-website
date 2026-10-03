@@ -1015,8 +1015,6 @@ audio.quick-audio {
   color: var(--accent-sky);
   margin-right: 10px;
 }
-
-/* Plan cards */
 .plan-cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
