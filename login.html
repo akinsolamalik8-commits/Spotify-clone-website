@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login - Spotify</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="auth-page">
+  <div class="auth-page-logo">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg>
+  </div>
+  <div class="auth-page-title">Log in to Spotify</div>
+
+<div class="auth-page-form">
+    <a href="home.html" class="btn-outline-pill">Continue with Google</a>
+    <a href="home.html" class="btn-outline-pill">Continue with Apple</a>
+    <a href="home.html" class="btn-outline-pill">Continue with phone number</a>
+
+    <div class="divider-or">or</div>
+
+    <form action="home.html" method="get">
+      <label class="field-label" for="login-email">Email or username</label>
+      <input class="field-input" type="text" id="login-email" name="email" placeholder="Email or username" required>
+      <label class="field-label" for="login-password">Password</label>
+      <input class="field-input" type="password" id="login-password" name="password" placeholder="Password" required>
+      <button type="submit" class="btn-green-pill">Log In</button>
+    </form>
+  </div>
+
+  <div class="auth-page-alt">
+    <p>Don't have an account?</p>
+    <a href="signup.html">Sign up for Spotify</a>
+  </div>
+
+  <div class="auth-page-disclaimer">
+    This site is protected by reCAPTCHA and the Google
+    <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.
+  </div>
+</div>
+
+</body>
+</html>

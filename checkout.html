@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout - Spotify Clone</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="imgi_143_default.png" type="image/x-icon">
+</head>
+<body class="checkout-page">
+
+<header class="checkout-nav">
+  <a class="checkout-brand" href="plan.html">
+    <img src="imgi_143_default.png " alt="">
+    <span>Spotify</span>
+  </a>
+  <span class="checkout-avatar"><svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 100-8 4 4 0 000 8zm0 2c-4 0-7 2-7 4v2h14v-2c0-2-3-4-7-4z"/></svg></span>
+</header>
+
+<main class="checkout-main">
+  <div class="checkout-title-row">
+    <h1>Checkout</h1>
+    <a class="checkout-change" href="plan.html">Change plan</a>
+  </div>
+
+  <section class="checkout-order">
+    <div class="order-row">
+      <span class="order-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg></span>
+      <div class="order-info">
+        <div class="order-name">Premium Individual</div>
+        <div class="order-sub">1 Premium account</div>
+      </div>
+      <div class="order-price">
+        <div class="order-price-main">NGN 0.00</div>
+        <div class="order-price-sub">For 1 month</div>
+      </div>
+    </div>
+
+    <div class="order-timeline">
+      <span class="timeline-rail"></span>
+      <div class="timeline-step">Now: 1 month for NGN 0.00</div>
+      <div class="timeline-step">Starting Oct 28, 2026: NGN 1,600.00/month</div>
+    </div>
+
+    <ul class="order-notes">
+      <li>We'll remind you 7 days before you're charged.</li>
+      <li>Cancel anytime online. <a href="#">Terms apply</a></li>
+    </ul>
+  </section>
+
+  <hr class="checkout-divider">
+
+  <section class="checkout-payment">
+    <h2>Payment method</h2>
+    <div class="payment-method-row">
+      <div>
+        <span class="payment-label">Credit or debit card</span>
+        <div class="payment-brands">
+          <span class="brand-chip brand-visa">VISA</span>
+          <span class="brand-chip brand-mastercard"><i></i><i></i></span>
+          <span class="brand-chip brand-verve">Verve</span>
+        </div>
+      </div>
+      <span class="payment-lock"><svg viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg></span>
+    </div>
+
+    <label class="field-label" for="card-number">Card number</label>
+    <div class="card-input-wrap">
+      <svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg>
+      <input type="text" id="card-number" placeholder="0000 0000 0000 0000">
+    </div>
+
+    <div class="field-row">
+      <div>
+        <label class="field-label" for="card-expiry">Expiry date</label>
+        <input type="text" id="card-expiry" placeholder="MM / YY">
+      </div>
+      <div>
+        <label class="field-label" for="card-cvc">Security code</label>
+        <div class="cvc-input-wrap">
+          <input type="text" id="card-cvc">
+          <span class="cvc-help">?</span>
+        </div>
+      </div>
+    </div>
+
+    <label class="checkout-checkbox">
+      <input type="checkbox">
+      Save card for future orders.
+    </label>
+    <p class="checkout-fine-muted">This won't affect how you pay for existing subscriptions and can be managed anytime in your Account page.</p>
+  </section>
+
+  <section class="checkout-summary">
+    <h2>Summary</h2>
+    <div class="summary-box">
+      <div class="summary-items-label">Items</div>
+      <div class="order-row">
+        <span class="order-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="12"/></svg></span>
+        <div class="order-info">
+          <div class="order-name">Premium Individual</div>
+        </div>
+        <div class="order-price-main">NGN 0.00</div>
+      </div>
+      <div class="order-timeline">
+        <span class="timeline-rail"></span>
+        <div class="timeline-step">Now: 1 month for NGN 0.00</div>
+        <div class="timeline-step">Starting Oct 28, 2026: NGN 1,600.00/month</div>
+      </div>
+      <hr class="summary-inner-divider">
+      <div class="summary-total-row">
+        <span>Total now</span>
+        <span>NGN 0.00</span>
+      </div>
+    </div>
+
+    <p class="checkout-terms">If you don't cancel your subscription before the trial ends on October 28, 2026, you agree that you will automatically be charged the subscription fee every month until you cancel. If you cancel during your trial period, you will lose access to your Premium benefits immediately. Full terms are available <a href="#">here.</a></p>
+  </section>
+
+  <a class="checkout-submit" href="home.html">Complete purchase</a>
+</main>
+
+</body>
+</html>
